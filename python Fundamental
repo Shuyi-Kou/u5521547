@@ -1,0 +1,19 @@
+print("Dad")
+print("666")
+print("你好" + " 这时一句代码")
+print('let\'s go')
+print("我是第一行\n我是第二行")
+greet=("您好，吃了吗")
+print(greet)
+
+import math
+
+a = -1
+b = -2
+c = 3
+print((-b + math.sqrt(b ** 2 - 4 * a * c)) / (2 * a))
+
+user_weight = float(input("请输入您的体重 (单位： kg) ： "))
+user_height = float(input("请输入您的身高 (单位： m) ： "))
+user_MBI = user_weight /((user_height) ** 2)
+print("您的MBI值为： " + str(user_MBI))
