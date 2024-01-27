@@ -1,0 +1,22 @@
+numbers =[3,1,4,1,5,9,2]
+print(sorted(numbers))
+numbers.sort(reverse=True)
+print(numbers)
+numbers.reverse()
+print(numbers)
+fruits = ["apple", "kiwi", "cherry", "mango"]
+fruits.sort(key=len)
+def calculate_BMI(weight, height):
+    BMI = weight / height ** 2
+    if BMI <= 18.5:
+        catogory = "偏瘦"
+    elif BMI <= 25:
+        catogory = "正常"
+    elif BMI <= 30:
+        catogory = "偏胖"
+    else:
+        catogory = "肥胖"
+    print(f"您的BMI分类为: {catogory}")
+    return BMI
+print(calculate_BMI(1.8, 70))
+        
